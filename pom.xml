@@ -16,6 +16,16 @@
 
 
     <dependencies>
+
+
+        <!-- Lombok Automatic Resource Management, automatic generation of getters, setters, equals, hashCode and toString.-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+        </dependency>
+
+
         <!-- Selenium java client -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
