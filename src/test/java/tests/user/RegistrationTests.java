@@ -28,7 +28,7 @@ public class RegistrationTests extends TestBase {
     public void registrationPositiveTest() {
         homePage.openLoginRegForm();
         Assert.assertTrue(loginPage.loginRegisteredFormIsDisplayed());
-        loginPage.fillRegisteredForm(User.builder().email("veliadorfa41@gmail.com").password("veli98766").confirmPassw("veli98766").build());
+        loginPage.fillRegisteredForm(User.builder().email("veliadorfa42@gmail.com").password("veli98766").confirmPassw("veli98766").build());
 //        loginPage.fillEmail(User.builder().email("velliadorfa@gmail.com").build());
 //        loginPage.fillPass(User.builder().password("veli12356").build());
 //        loginPage.fillConfirmPassw(password);

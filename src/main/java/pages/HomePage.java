@@ -44,7 +44,7 @@ public class HomePage extends PageBase {
     }
 
     public boolean registerSuccessMassageIsDsplayed() {
-         waitUntilElementInVisible(massageSuccessReg,30);
+         waitUntilElementInVisible(massageSuccessReg,50);
         return massageSuccessReg.isDisplayed();
 
     }
